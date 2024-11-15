@@ -278,7 +278,96 @@ body {
 #secondbig {
     width: 1686px;
     height: 280.5px;
-    background-color: pink;
     box-sizing: border-box;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.story-container {
+    box-sizing: border-box;
+    width: 1180px;
+    height: 280.5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+}
+
+.story {
+    color: #fff;
+    padding: 2px 3px;
+    background-color: #00b0f4;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.dotor {
+    position: relative;
+}
+
+.gicon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+
+}
+
+.dotrhtext {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    font-size: 13px;
+    color: white;
+    line-height: 17px;
+    width: 170.8px;
+    overflow: hidden;
+
+
+}
+
+.dotor2:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.hoverborder {
+    overflow: hidden;
+
+}
+
+.dotor:hover .dotrhtext {
+    height: 84px;
+    width: 150.5px;
+    transform: translateY(-5px);
+    transition: 0.5s;
+
+}
+
+.nud {
+padding-left: 15px;
+    gap: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    bottom: 19px;
+    display: flex
+}
+
+.allstory {
+    width: 1100px;
+    height: 235.5px;
+    display: flex;
+    gap: 15px;
 }
