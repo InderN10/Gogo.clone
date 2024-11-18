@@ -451,19 +451,71 @@ transition: 0.5s;
     margin-bottom: 30px;
     margin-top: 10px;
     display: flex;
+    
+}
+.photowhittext:hover .zurag{
+   transform: scale(1.2); 
+transition: 0.5s;
+}
+.zuraghidden-container{
+    position: relative;
+    overflow: hidden;
+    width: 210px;
+    height: 150px;
+    border-radius: 5px; 
 }
 .zurag{
     width: 210px;
     height: 150px;
+    border-radius: 5px;
+}
+.imghidden{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.unshih{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.zuraghidden-container:hover .imghidden{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.zuraghidden-container:hover .unshih{
+opacity: 1;
 }
 .texttt{
     width: 480px;
     height: 150px;
     box-sizing: border-box;
     padding-left: 30px;
-}
-.bicig1{
-
 }
 .bicig2{
 width: 450px;
@@ -478,4 +530,37 @@ overflow: hidden;
     height: 22px;
 display: flex;
 align-items: center;
+}
+#bluequestion{
+    width: 690px;
+    height: 322px;
+    background-color: #007aff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#title1{
+    width: 650px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.question1{
+    background-color: hsla(0, 0%, 100%, .1);
+    width: 575px;
+    height: 75px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.booronhii{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+background-color: #c90027;
+
+
 }
