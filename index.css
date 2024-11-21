@@ -376,7 +376,7 @@ body {
 
 .thirdbig {
     width: 100vw;
-    height: 3330.37px;
+    height: 3390.37px;
     display: flex;
     justify-content: center;
 }
@@ -852,7 +852,7 @@ display: flex;
 
 }
 .number1{
-    width: 25.58px;
+    width: 40.58px;
     height: 91px;
     margin-right: 15px;
     font-weight: 700;
@@ -882,4 +882,163 @@ display: flex;
 .numbers1:hover .dottedborder{
     transform: scale(1.05);
     transition: 0.4s;
+}
+.manaicbig{
+    width: 100vw;
+    height: 548.83px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.manaic-container{
+    width: 1180px;
+    height: 548.83px;
+    background-color: #ccc;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+.yriltslag{
+    width: 1100px;
+    height: 27.83px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.photo-container{
+    width: 1115px;
+    height: 501px;
+    border: 1px solid blue;
+    display: flex;
+}
+.halfporcent{
+    width: 50%;
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    position: relative;
+    overflow: hidden;
+}
+.photo-four{
+    width: 263.75px;
+    height: 243px;
+    border: 1px solid rebeccapurple;
+    overflow: hidden;
+position: relative;
+}
+.halfporcent2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.photo4:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.photo4 {
+    object-fit: cover;
+}
+.hovered-text{
+    width: 542.5px;
+    height: 190.41px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.garaanii-biznes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 104.69px;
+    height: 26px;
+    background-color: #407ce8;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    opacity: 1;
+
+}
+.garaanii-text{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 0px;
+}
+.garaanii-delgerengui{
+    width: 482.5px;
+    height: 33.41px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid grey;
+}
+.photo4:hover +.hovered-text{
+    opacity: 0.8;
+    width: 542.5px;
+    height: 190.41px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.hovered-text2{
+    width: 263.75px;
+    height: 131px;
+    background-color: #d6710b;
+    box-sizing: border-box;
+    padding: 20px 20px 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.elchin-said{
+    width: 78.69px;
+    height: 26px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #407ce8;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elchintext{
+    width: 223.75px;
+    height: 55px;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.overflowset{
+    width: 223.75px;
+    height: 55px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.photo4:hover +.overflowset{
+    width: 223.75px;
+    height: 80px;
+    box-sizing: border-box;
+}
+.photo4:hover +.elchintext{
+    width: 223.75px;
+    height: 80px;
+    box-sizing: border-box;
 }
