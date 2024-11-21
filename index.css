@@ -833,25 +833,28 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
-.numbers{
-width: 270px;
-height: 112px;
-box-sizing: border-box;
-margin: 0px -15px 20px;
-padding: 0px 0px 20px;
-display: flex;
+
+.numbers {
+    width: 270px;
+    height: 112px;
+    box-sizing: border-box;
+    margin: 0px -15px 20px;
+    padding: 0px 0px 20px;
+    display: flex;
 
 }
-.numbers1{
+
+.numbers1 {
     width: 270px;
     height: 91px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
-.number1{
+
+.number1 {
     width: 40.58px;
     height: 91px;
     margin-right: 15px;
@@ -861,17 +864,19 @@ display: flex;
     line-height: 46px;
     display: flex;
     align-items: center;
-  
+
 
 }
-.bicig3-2{
+
+.bicig3-2 {
     width: 210px;
     height: 20px;
     margin-top: 5px;
     display: flex;
     align-items: center;
 }
-.dottedborder{
+
+.dottedborder {
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -879,25 +884,28 @@ display: flex;
     border-bottom: dashed;
     border-color: rgb(218, 218, 218);
 }
-.numbers1:hover .dottedborder{
+
+.numbers1:hover .dottedborder {
     transform: scale(1.05);
     transition: 0.4s;
 }
-.manaicbig{
+
+.manaicbig {
     width: 100vw;
     height: 548.83px;
     margin-top: 60px;
     display: flex;
     justify-content: center;
 }
-.manaic-container{
+
+.manaic-container {
     width: 1180px;
     height: 548.83px;
-    background-color: #ccc;
     box-sizing: border-box;
     padding: 0px 40px;
 }
-.yriltslag{
+
+.yriltslag {
     width: 1100px;
     height: 27.83px;
     margin-bottom: 20px;
@@ -907,44 +915,48 @@ display: flex;
     align-items: center;
     gap: 10px;
 }
-.photo-container{
+
+.photo-container {
     width: 1115px;
     height: 501px;
-    border: 1px solid blue;
     display: flex;
 }
-.halfporcent{
+
+.halfporcent {
     width: 50%;
     height: 100%;
-    border: 1px solid rebeccapurple;
     position: relative;
     overflow: hidden;
 }
-.photo-four{
+
+.photo-four {
     width: 263.75px;
     height: 243px;
-    border: 1px solid rebeccapurple;
     overflow: hidden;
-position: relative;
+    position: relative;
 }
-.halfporcent2{
+
+.halfporcent2 {
     width: 50%;
     height: 100%;
-    border: 1px solid greenyellow;
+
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
     margin-left: 15px;
 }
+
 .photo4:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
 .photo4 {
     object-fit: cover;
 }
-.hovered-text{
+
+.hovered-text {
     width: 542.5px;
     height: 190.41px;
     box-sizing: border-box;
@@ -953,7 +965,8 @@ position: relative;
     left: 0;
     bottom: 0;
 }
-.garaanii-biznes{
+
+.garaanii-biznes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -968,13 +981,15 @@ position: relative;
     opacity: 1;
 
 }
-.garaanii-text{
+
+.garaanii-text {
     font-size: 20px;
     font-weight: 700;
     color: white;
     margin: 0px;
 }
-.garaanii-delgerengui{
+
+.garaanii-delgerengui {
     width: 482.5px;
     height: 33.41px;
     font-size: 13px;
@@ -984,9 +999,9 @@ position: relative;
     margin-top: 10px;
     display: flex;
     align-items: center;
-    border-top: 1px solid grey;
 }
-.photo4:hover +.hovered-text{
+
+.photo4:hover+.hovered-text {
     opacity: 0.8;
     width: 542.5px;
     height: 190.41px;
@@ -996,17 +1011,18 @@ position: relative;
     left: 0;
     bottom: 0;
 }
-.hovered-text2{
+
+.hovered-text2 {
     width: 263.75px;
     height: 131px;
-    background-color: #d6710b;
     box-sizing: border-box;
     padding: 20px 20px 25px;
     position: absolute;
     bottom: 0;
     left: 0;
 }
-.elchin-said{
+
+.elchin-said {
     width: 78.69px;
     height: 26px;
     margin-bottom: 5px;
@@ -1019,26 +1035,374 @@ position: relative;
     align-items: center;
     justify-content: center;
 }
-.elchintext{
+
+.elchintext {
     width: 223.75px;
     height: 55px;
     margin: 0px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
+    color: white;
 }
-.overflowset{
+
+.overflowset {
     width: 223.75px;
     height: 55px;
+    padding-bottom: (-10px);
     overflow: hidden;
     box-sizing: border-box;
 }
-.photo4:hover +.overflowset{
+
+.photo-four:hover .overflowset {
     width: 223.75px;
-    height: 80px;
+    height: 70px;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    padding-bottom: -10px;
+    overflow: hidden;
     box-sizing: border-box;
 }
-.photo4:hover +.elchintext{
-    width: 223.75px;
-    height: 80px;
+
+.photo-four:hover .elchin-said {
+    padding-top: -25px;
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.savagebig {
+    width: 100vw;
+    height: 405.5px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.savagebig1 {
+    width: 1180px;
+    height: 405.5px;
     box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+.savage-header {
+    width: 1100px;
+    height: 25.5px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+.hev-mayg {
+    font-size: 18px;
+    font-weight: 700;
+    width: 101.01px;
+    height: 25.5px;
+    background-color: #00b0f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: white;
+}
+
+.savage-gogo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.listfb {
+    width: 1150px;
+    height: 360px;
+    gap: 15px;
+    display: flex;
+}
+
+.imgwttext {
+    width: 262.75px;
+    height: 360px;
+    border: 0.8px solid #ccc8c8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.svg-img-container {
+    width: 263.75px;
+    height: 230px;
+    position: relative;
+}
+
+.svg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.svg-img-container:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.savage-text-container {
+    width: 263.75px;
+    height: 130px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.savage-1st-text {
+    width: 241.72px;
+    height: 72px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.savage-footer {
+    width: 241.75px;
+    height: 26px;
+    padding-top: 5px;
+    margin-top: 10px;
+    display: flex;
+    border-top: 1px solid #ccc8c8;
+}
+
+.savage-share {
+    width: 35.36px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-right: 30px;
+    color: #888;
+}
+
+.savage-icon {
+    width: 12px;
+    height: 12px;
+    opacity: 0.2;
+}
+
+.savage-comm {
+    width: 22.02px;
+    height: 20px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap: 3px;
+    color: #888;
+}
+
+.savage-comm-icon {
+    width: 12px;
+    height: 10.99px;
+    opacity: 0.4;
+}
+
+.unshih {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.svg-img-container:hover .imghidden {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s;
+}
+
+.svg-img-container:hover .unshih {
+    opacity: 1;
+}
+
+.tehnologi {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.computer-icon {
+    width: 23px;
+    height: 25px;
+}
+
+.imgwttext2 {
+    width: 262.75px;
+    height: 300px;
+    border: 0.8px solid #ccc8c8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.svg-img-container2 {
+    width: 263.75px;
+    height: 170px;
+    position: relative;
+}
+
+.svg-img-container2:hover .imghidden {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s;
+}
+
+.svg-img-container2:hover .unshih {
+    opacity: 1;
+}
+
+.svg-img-container2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.seven-big {
+    width: 100vw;
+    height: 378.83px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.seven-big1 {
+    width: 1180px;
+    height: 378.83px;
+    box-sizing: border-box;
+    padding: 0px 40px;
+  
+}
+
+.comicwttext {
+    width: 557.5px;
+    height: 330px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.comicimg {
+    width: 542.5px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.comicimg1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comic-text-container {
+    width: 542.5px;
+    height: 130px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid rgb(190, 188, 188);
+}
+
+.comic-text {
+    width: 520.5px;
+    height: 72px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.comic-footer {
+    width: 520.5px;
+    height: 26px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+    color: #888;
+    border-top: 0.8px solid rgb(190, 188, 188);
+}
+
+.seven-share {
+    width: 12px;
+    height: 12px;
+    opacity: 0.3;
+}
+
+.sevenshare {
+    width: 35.36px;
+    height: 20px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.comicimg:hover .imghidden {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s;
+}
+.unshih {
+    width: 100%;
+    color: white;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.comicimg:hover .unshih {
+    transition: 0.5s;
+    width: 100%;
+    color: white;
+    height: 100%;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.zamedkue{
+    display: flex;
+}
+.comicimg:hover .comicimg1{
+    transform: scale(1.1);
 }
